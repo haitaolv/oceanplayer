@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:fitsSystemWindows="true"
+    tools:context=".AudioFileSelectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/leftLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/select_directory"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlack"/>
+
+            <ListView
+                android:id="@+id/audioFolderListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rightLayout"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgHide"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:padding="4dp"
+                    android:background="@drawable/my_ripple"
+                    android:clickable="true"
+                    android:onClick="backToAudioFolderList"
+                    app:srcCompat="@drawable/ic_arrow_back_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center|center_vertical"
+                    android:text="@string/select_files"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"/>
+
+                <ImageView
+                    android:id="@+id/imgSelectAll"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:padding="4dp"
+                    android:background="@drawable/my_ripple"
+                    android:clickable="true"
+                    android:onClick="selectAllClicked"
+                    app:srcCompat="@drawable/ic_playlist_select_all_24dp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/audioFileListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:choiceMode="multipleChoice"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingRight="15dp"
+        android:layout_gravity="bottom">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="0dp"
+            android:onClick="cancelClicked"
+            android:text="@string/btn_cancel" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="0dp"
+            android:onClick="okClicked"
+            android:text="@string/btn_ok" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

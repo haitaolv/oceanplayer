@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OceanPlayer</string>
+    <string name="action_settings">设置语言</string>
+    <string name="action_about">关于</string>
+    <string name="action_about_detail">"作者：吕海涛\n版本：1.0\n\n这个播放器只能播放本地的音乐，没有网络播放功能哦\n\n如果你在使用中遇到任何问题,请发送邮件到lvht1982@gmail.com\n"</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_close">关闭</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_delete">删除</string>
+    <string name="btn_delete_selected">删除选中</string>
+    <string name="my_play_list">我的歌单</string>
+    <string name="create_play_list_description">请输入歌单名称:</string>
+    <string name="create_play_list_title">创建歌单</string>
+    <string name="modify_play_list_title">修改歌单</string>
+    <string name="total_file_number">共%d个音频文件</string>
+    <string name="select_directory">请选择目录</string>
+    <string name="select_files">请选择音频文件</string>
+    <string name="select_files_to_delete">请选择要删除的文件</string>
+    <string name="msg_delete_successfully">删除成功</string>
+    <string name="msg_save_successfully">保存成功</string>
+    <string name="msg_add_files">成功添加%d文件</string>
+    <string name="msg_play_lst_name_can_not_empty">歌单名称不能为空</string>
+    <string name="msg_play_lst_name_already_exist">歌单名称已经存在</string>
+    <string name="msg_play_lst_name_too_long">歌单名称不能32个字符</string>
+    <string name="msg_select_at_least_one_file">请至少选择一个文件</string>
+    <string name="no_audio_file_loaded">没有加载音频文件</string>
+    <string name="btn_Close">关闭</string>
+    <string name="my_favorite">我的最爱</string>
+    <string name="msg_added_to_favorite">添加到我的最爱</string>
+    <array name="language_array">
+        <item>跟随系统</item>
+        <item>简体中文</item>
+        <item>English</item>
+    </array>
+</resources>

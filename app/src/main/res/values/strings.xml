@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">OceanPlayer</string>
+    <string name="action_settings">Language</string>
+    <string name="action_about">About</string>
+    <string name="action_about_detail">"Author：Frank Lv\nVersion：1.0\n\nThis player can only play local audios, it has no ability to play online audios.\n\nPlease send mail to lvht1982@gmail.com if you see any problem during usage\n"</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_delete_selected">Delete Selected</string>
+    <string name="my_play_list">My Play List</string>
+    <string name="create_play_list_description">Fill in play list name:</string>
+    <string name="create_play_list_title">Create Play List</string>
+    <string name="modify_play_list_title">Modify Play List</string>
+    <string name="total_file_number">%d Audio Files</string>
+    <string name="select_directory">Select Directory</string>
+    <string name="select_files">Select Audio Files</string>
+    <string name="select_files_to_delete">Select Files to Delete</string>
+    <string name="msg_delete_successfully">Delete Successfully</string>
+    <string name="msg_save_successfully">Save Successfully</string>
+    <string name="msg_add_files">%d Files Added</string>
+    <string name="msg_play_lst_name_can_not_empty">Play List name can not be empty</string>
+    <string name="msg_play_lst_name_already_exist">Play List name already exists</string>
+    <string name="msg_play_lst_name_too_long">Play List name can not exceed 32 letters</string>
+    <string name="msg_select_at_least_one_file">Select at least one file</string>
+    <string name="no_audio_file_loaded">No Audio File Loaded</string>
+    <string name="btn_Close">关闭</string>
+    <string name="my_favorite">My Favorite</string>
+    <string name="msg_added_to_favorite">Added to Favorite</string>
+    <string-array name="language_array">
+        <item>Follow System</item>
+        <item>简体中文</item>
+        <item>English</item>
+    </string-array>
+</resources>

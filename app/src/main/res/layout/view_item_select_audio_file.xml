@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cbAudioFileIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/txtAudioFileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:text="TextView"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/controlBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom"
+    android:layout_weight="0"
+    android:background="@color/colorTransparent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_color_cd"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgCD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/icon_128"
+            android:padding="2dp"
+            android:transitionName="imgCD"/>
+
+        <TextView
+            android:id="@+id/txtAudioFileName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:layout_weight="1.0"
+            android:paddingTop="18dp"
+            android:text="Playing Song Name"
+            android:textSize="12dp"/>
+
+        <ImageView
+            android:id="@+id/btnPausePlay"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:padding="6dp"
+            android:background="@drawable/my_ripple"
+            android:clickable="true"
+            android:src="@drawable/ic_btn_play" />
+    </LinearLayout>
+</LinearLayout>
